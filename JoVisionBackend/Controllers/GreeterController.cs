@@ -9,9 +9,7 @@ namespace JoVisionBackend.Controllers
         [HttpGet]
         public IActionResult GetGreeting([FromQuery] string name = "anonymous")
         {
-            
             return Ok($"Hello {name} greeting");
-
         }
     }
 }
