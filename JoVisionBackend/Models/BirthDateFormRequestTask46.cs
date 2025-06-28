@@ -1,6 +1,6 @@
 ﻿namespace JoVisionBackend.Models
 {
-    public class BirthDateFormRequest
+    public class BirthDateFormRequestTask46
     {
         public string Name {get; set;}="anonymous";
         public int? Years { get; set; }

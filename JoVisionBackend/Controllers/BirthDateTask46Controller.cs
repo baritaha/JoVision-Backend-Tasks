@@ -9,7 +9,7 @@ namespace JoVisionBackend.Controllers
     public class BirthDateTask46Controller : ControllerBase
     {
         [HttpPost]
-        public IActionResult PostAge([FromForm] BirthDateFormRequest request)
+        public IActionResult PostAge([FromForm] BirthDateFormRequestTask46 request)
         {
             var name = string.IsNullOrWhiteSpace(request.Name) ? "anonymous" : request.Name;
 
